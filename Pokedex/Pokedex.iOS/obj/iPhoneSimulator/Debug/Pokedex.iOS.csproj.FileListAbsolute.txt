@@ -1,5 +1,11 @@
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Pokedex.iOS.exe
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Pokedex.iOS.pdb
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Refit.dll
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/System.Text.Encodings.Web.dll
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/System.Text.Json.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
@@ -45,13 +51,14 @@
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Pokedex.pdb
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
-/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
-/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/optimized/
-/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.csprojAssemblyReference.cache
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.1/actool/_PartialAppManifest.items
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.1/actool/_BundleResourceWithLogicalName.items
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.1/coremlc/_PartialAppManifest.items
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.1/optimized/pokedex_logo.png
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.1/optimized/
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/RefitStubs.g.cs
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.csproj.CoreCompileInputs.cache
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.csproj.CopyComplete
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.exe

@@ -5,5 +5,6 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)xamarin.forms/4.8.0.1451/buildTransitive/Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms/4.8.0.1451/buildTransitive/Xamarin.Forms.targets')" />
+    <Import Project="$(NuGetPackageRoot)refit/5.2.1/buildTransitive/netstandard2.0/refit.targets" Condition="Exists('$(NuGetPackageRoot)refit/5.2.1/buildTransitive/netstandard2.0/refit.targets')" />
   </ImportGroup>
 </Project>

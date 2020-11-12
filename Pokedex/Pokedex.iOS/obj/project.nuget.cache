@@ -1,9 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "sHfJzaSbwc+J4FwtSMLJk4V0CUuKhfEcPMY9bu58BhEeuXk+S7S5g05TDfhQll94ACrm6L8IpqZjhI6cGT2k3g==",
+  "dgSpecHash": "1gR+tB5z3GzWmewaC1cGb0zc7TzsxoHpq+Xna864TOnmXyfUO6rb+serwYCzwETwv5UudqkBYqI/iTh0IBJ0kQ==",
   "success": true,
   "projectFilePath": "/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/Pokedex.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/eduardoreis/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/refit/5.2.1/refit.5.2.1.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.text.encodings.web/4.7.1/system.text.encodings.web.4.7.1.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],

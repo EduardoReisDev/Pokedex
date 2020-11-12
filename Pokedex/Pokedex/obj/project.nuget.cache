@@ -1,12 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "IQF31plVoSM/COACZsVqhinsFaolVotfXzszxRIGif/yzrGy5iis+RlEBBANhP1HV4Y6WRup99geYoviZMsiXA==",
+  "dgSpecHash": "6z5xyBh+wDvpdJUYMwZQTGLAfauWEtQ8mDtJswlCnoGRvAgpfZ3/GhNTvx0+m4jmXgnG30DC7QiONjAyrzf3xA==",
   "success": true,
   "projectFilePath": "/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/Pokedex.csproj",
   "expectedPackageFiles": [
+    "/Users/eduardoreis/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/refit/5.2.1/refit.5.2.1.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.text.encodings.web/4.7.1/system.text.encodings.web.4.7.1.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],

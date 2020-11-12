@@ -1,6 +1,41 @@
-﻿<Properties StartupConfiguration="{B318FE1E-53B8-46DA-828A-9A7C1B652A59}|Default">
-  <MonoDevelop.Ide.ItemProperties.Pokedex.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Pokedex.Android FirstBuild="True" />
+﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{B318FE1E-53B8-46DA-828A-9A7C1B652A59}|Default" HasHotReloadOverlayBeenDismissed="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pokedex/View/BuscarPokemon.xaml.cs">
+    <Files>
+      <File FileName="Pokedex.Android/SplashActivity.cs" Line="35" Column="1" />
+      <File FileName="Pokedex/Interface/IPokemonAPI.cs" />
+      <File FileName="Pokedex/Model/Pokemon.cs" Line="12" Column="41" />
+      <File FileName="Pokedex/View/BuscarPokemon.xaml.cs" Line="13" Column="35" />
+      <File FileName="Pokedex/View/BuscarPokemon.xaml" Line="42" Column="60" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Pokedex" expanded="True">
+            <Node name="Pokedex" expanded="True">
+              <Node name="Interface" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="View" expanded="True">
+                <Node name="BuscarPokemon.xaml" expanded="True">
+                  <Node name="BuscarPokemon.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Pokedex.Android" expanded="True" />
+            <Node name="Pokedex.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Pokedex.iOS Xamarin.HotReload.DebuggerTimeoutException.Pokedex.iOS.HideInfoBar="True" TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CD866E76-AAE4-4334-B837-E605CC7FF89B" />
+  <MonoDevelop.Ide.ItemProperties.Pokedex.Android AndroidDesignerPreferredTheme="MainTheme" TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Pokedex FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Pokedex HideGettingStarted="True" />
 </Properties>

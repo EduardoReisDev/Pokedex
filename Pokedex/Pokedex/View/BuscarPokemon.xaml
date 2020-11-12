@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+        xmlns="http://xamarin.com/schemas/2014/forms"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        x:Class="Pokedex.View.BuscarPokemon"
+        xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true">
+       
+        <StackLayout BackgroundColor="#C32D2F">
+            <StackLayout Margin="20">
+                <Image Source="pokedex_logo.png"
+                       WidthRequest="200"/>
+                <Entry Placeholder="Digite o nome do pokemon"
+                       BackgroundColor="#931F21"
+                       x:Name="entry_pokemon"/>
+                <Button Text="Buscar"
+                        BackgroundColor="#931F21"
+                        x:Name="button_pokemon"/>
+                <Label TextColor="#FFFFFF"
+                       Text=""
+                       x:Name="info_pokemon"/>
+                <Grid RowSpacing="10" ColumnSpacing="10" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0"
+                           Grid.Row="0"
+                           Text="ola"
+                           BackgroundColor="#FFFFFF"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                    <Label Grid.Column="1"
+                           Grid.Row="0"
+                           Text="ola2"
+                           BackgroundColor="#FFFFFF"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                    <Label Grid.ColumnSpan="2"
+                           Grid.Row="1"
+                           Text="jk3"
+                           BackgroundColor="#FFFFFF"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                    <Label Grid.Column="0"
+                           Grid.Row="2"
+                           Text="teste"
+                           BackgroundColor="#FFFFFF"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                    <Label Grid.Column="1"
+                           Grid.Row="2"
+                           Text="teste"
+                           BackgroundColor="#FFFFFF"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </Grid>
+            </StackLayout>
+
+        </StackLayout>
+</ContentPage>
