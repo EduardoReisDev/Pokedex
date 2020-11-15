@@ -1,41 +1,38 @@
-﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{B318FE1E-53B8-46DA-828A-9A7C1B652A59}|Default" HasHotReloadOverlayBeenDismissed="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pokedex/View/BuscarPokemon.xaml.cs">
+﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{040AFCF9-6F0D-4567-BEB0-376F7C7E85E1}|Default" HasHotReloadOverlayBeenDismissed="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pokedex/View/BuscarPokemon.xaml">
     <Files>
-      <File FileName="Pokedex.Android/SplashActivity.cs" Line="35" Column="1" />
-      <File FileName="Pokedex/Interface/IPokemonAPI.cs" />
-      <File FileName="Pokedex/Model/Pokemon.cs" Line="12" Column="41" />
-      <File FileName="Pokedex/View/BuscarPokemon.xaml.cs" Line="13" Column="35" />
-      <File FileName="Pokedex/View/BuscarPokemon.xaml" Line="42" Column="60" />
+      <File FileName="Pokedex/View/BuscarPokemon.xaml" Line="7" Column="9" />
+      <File FileName="Pokedex/View/BuscarPokemon.xaml.cs" Line="36" Column="80" />
+      <File FileName="Pokedex/View/TodosPokemon.xaml" Line="24" Column="93" />
+      <File FileName="Pokedex/View/TodosPokemon.xaml.cs" Line="16" Column="10" />
+      <File FileName="Pokedex/Interface/IPokemonAPI.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Pokedex" expanded="True">
+          <Node name="Pokedex" expanded="True" selected="True">
             <Node name="Pokedex" expanded="True">
               <Node name="Interface" expanded="True" />
               <Node name="Model" expanded="True" />
               <Node name="View" expanded="True">
-                <Node name="BuscarPokemon.xaml" expanded="True">
-                  <Node name="BuscarPokemon.xaml.cs" selected="True" />
-                </Node>
+                <Node name="BuscarPokemon.xaml" expanded="True" />
+                <Node name="CategoriaPokemon.xaml" expanded="True" />
+                <Node name="TodosPokemon.xaml" expanded="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="Pokedex.Android" expanded="True" />
-            <Node name="Pokedex.iOS" expanded="True">
-              <Node name="Resources" expanded="True" />
-            </Node>
+            <Node name="Pokedex.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Pokedex.iOS Xamarin.HotReload.DebuggerTimeoutException.Pokedex.iOS.HideInfoBar="True" TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CD866E76-AAE4-4334-B837-E605CC7FF89B" />
-  <MonoDevelop.Ide.ItemProperties.Pokedex.Android AndroidDesignerPreferredTheme="MainTheme" TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.Pokedex.iOS Xamarin.HotReload.DebuggerTimeoutException.Pokedex.iOS.HideInfoBar="True" TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AC3F3ECB-AE08-4073-AC49-F89A18C1171A" />
+  <MonoDevelop.Ide.ItemProperties.Pokedex.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Pokedex HideGettingStarted="True" />
 </Properties>

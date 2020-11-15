@@ -10,7 +10,7 @@ namespace Pokedex
         {
             InitializeComponent();
 
-            MainPage = new View.BuscarPokemon();
+            MainPage = new NavigationPage(new View.BuscarPokemon());
         }
 
         protected override void OnStart()

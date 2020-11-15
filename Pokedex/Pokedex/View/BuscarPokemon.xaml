@@ -3,9 +3,11 @@
         xmlns="http://xamarin.com/schemas/2014/forms"
         xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
         x:Class="Pokedex.View.BuscarPokemon"
-        xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true">
+        xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true"
+        BackgroundColor="#C32D2F"
+        NavigationPage.HasNavigationBar="False">
        
-        <StackLayout BackgroundColor="#C32D2F">
+        <StackLayout>
             <StackLayout Margin="20">
                 <Image Source="pokedex_logo.png"
                        WidthRequest="200"/>
@@ -13,16 +15,14 @@
                        BackgroundColor="#931F21"
                        x:Name="entry_pokemon"/>
                 <Button Text="Buscar"
+                        TextColor="#FFFFFF"
                         BackgroundColor="#931F21"
-                        x:Name="button_pokemon"/>
-                <Label TextColor="#FFFFFF"
-                       Text=""
-                       x:Name="info_pokemon"/>
+                        x:Name="button_pokemon"/>            
                 <Grid RowSpacing="10" ColumnSpacing="10" >
                     <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="200"/>
+                        <RowDefinition Height="40"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
@@ -30,36 +30,41 @@
                     </Grid.ColumnDefinitions>
                     <Label Grid.Column="0"
                            Grid.Row="0"
-                           Text="ola"
-                           BackgroundColor="#FFFFFF"
+                           Text=""
+                           x:Name="id_pokemon"
                            HorizontalTextAlignment="Center"
                            VerticalTextAlignment="Center"/>
                     <Label Grid.Column="1"
                            Grid.Row="0"
-                           Text="ola2"
-                           BackgroundColor="#FFFFFF"
+                           Text=""
+                           x:Name="nome_pokemon"  
                            HorizontalTextAlignment="Center"
                            VerticalTextAlignment="Center"/>
-                    <Label Grid.ColumnSpan="2"
+                    <Image HeightRequest="20"
+                           Grid.ColumnSpan="2"
                            Grid.Row="1"
-                           Text="jk3"
-                           BackgroundColor="#FFFFFF"
-                           HorizontalTextAlignment="Center"
-                           VerticalTextAlignment="Center"/>
+                           Source=""
+                           x:Name="imagem">
+                    </Image>
                     <Label Grid.Column="0"
                            Grid.Row="2"
-                           Text="teste"
-                           BackgroundColor="#FFFFFF"
+                           x:Name="altura_pokemon"
                            HorizontalTextAlignment="Center"
                            VerticalTextAlignment="Center"/>
                     <Label Grid.Column="1"
                            Grid.Row="2"
-                           Text="teste"
-                           BackgroundColor="#FFFFFF"
+                           x:Name="peso_pokemon"
                            HorizontalTextAlignment="Center"
                            VerticalTextAlignment="Center"/>
                 </Grid>
+                <Button Text="Buscar Pokemon por categoria"
+                        TextColor="#FFFFFF"
+                        BackgroundColor="#931F21"
+                        Clicked="GoCategoriaPokemon"/>
+                <Button Text="Ver todos Pokemons"
+                        BackgroundColor="#931F21"
+                        TextColor="#FFFFFF"
+                        Clicked="GoTodosPokemon"/> 
             </StackLayout>
-
         </StackLayout>
 </ContentPage>
