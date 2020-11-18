@@ -8,14 +8,20 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="#FFFFFF">
             <StackLayout Margin=" 10">
-                <Label Text="Todos Pokemons" FontAttributes="Bold" TextColor="#000000"/>
+                <Label Text="Todos Pokemons"
+                       FontAttributes="Bold"
+                       TextColor="#000000"/>
             </StackLayout>
             <ScrollView>
-                <ListView x:Name="list_pokemons" HasUnevenRows="True">
+                <ListView x:Name="list_pokemons"
+                          HasUnevenRows="True">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <Frame Padding="10" CornerRadius="10" Margin="10" HasShadow="False">
+                                <Frame Padding="10"
+                                       CornerRadius="10"
+                                       Margin="10"
+                                       HasShadow="False">
                                     <Grid>
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="auto"/>
@@ -24,8 +30,12 @@
                                             <ColumnDefinition Width="60"/>
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
-                                        <Image Aspect="AspectFill" Source="{Binding image}"/>
-                                        <Label Grid.Column="1" Text="{Binding name}" VerticalTextAlignment="Center" TextColor="#000000"/>
+                                        <Image Aspect="AspectFill"
+                                               Source="{Binding image}"/>
+                                        <Label Grid.Column="1"
+                                               Text="{Binding name}"
+                                               VerticalTextAlignment="Center"
+                                               TextColor="#000000"/>
                                     </Grid>
                                 </Frame>
                             </ViewCell>
