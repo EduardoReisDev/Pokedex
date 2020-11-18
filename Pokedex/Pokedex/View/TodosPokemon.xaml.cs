@@ -1,35 +1,52 @@
 ﻿using System;
 using System.Collections.Generic;
-using Pokedex.Interface;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
 using Pokedex.Model;
-using Refit;
+using Pokedex.ViewModel;
 using Xamarin.Forms;
 
 namespace Pokedex.View
 {
     public partial class TodosPokemon : ContentPage
     {
+        //utilizando e instanciando httpClient
+        private readonly HttpClient _client = new HttpClient();
+
         public TodosPokemon()
         {
             InitializeComponent();
+            //diferente da categoria, eu já chama o método aqui pra quando o usuário abrir a página,
+            //a consulta já ser feita
+            PopulaLista();
         }
 
-        public async void BuscarPokemonAPI(object sender, EventArgs args)
+        public async void PopulaLista()
+        {
+            list_pokemons.ItemsSource = await GetAllPokemons();
+        }
+
+        //requisição para buscar todos os pokemons
+        public async Task<List<Results>> GetAllPokemons()
         {
             try
             {
-                string pokemon = "pikachu";
-                var apiClient = RestService.For<IPokemonAPI>("https://pokeapi.co/api/v2");
-                var pokemonnome = await apiClient.GetPokemonAsync(pokemon);
+                //url com todos os pokemons
+                var url = "https://pokeapi.co/api/v2/pokemon/?offset=20&limit=50";
 
-                //id_pokemon = string.Format($"ID: {pokemonnome.Id}");
-                //nome_pokemon.Text = string.Format($"Nome: {pokemonnome.Name}");
-                //imagem.Source = string.Format($"https://pokeres.bastionbot.org/images/pokemon/{pokemonnome.Id}.png");
+                string content = await _client.GetStringAsync(url);
+
+                var retornoConsulta = JsonConvert.DeserializeObject<PokeTodos>(content);
+
+                //results é a lista retornada da model(PokeTodos)
+                return retornoConsulta.results;
             }
 
-            catch (Exception e)
+            catch (Exception exc)
             {
-                Console.WriteLine("Erro na consulta do Pokemon: " + e.Message);
+                await DisplayAlert("Erro", "Ocorreu um erro ao buscar os pokemons: " + exc.Message, "OK");
+                return new List<Results>();
             }
         }
     }

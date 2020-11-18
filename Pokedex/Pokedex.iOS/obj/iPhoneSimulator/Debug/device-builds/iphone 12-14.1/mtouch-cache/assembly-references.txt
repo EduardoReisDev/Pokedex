@@ -24,8 +24,8 @@
 /Users/eduardoreis/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/bin/Debug/netstandard2.0/Pokedex.dll
 /Users/eduardoreis/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
-/Users/eduardoreis/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll
 /Users/eduardoreis/.nuget/packages/refit/5.2.1/lib/netstandard2.1/Refit.dll
+/Users/eduardoreis/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll
 /Users/eduardoreis/.nuget/packages/system.text.json/4.7.2/lib/netstandard2.0/System.Text.Json.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/14.4.1.3/lib/mono/Xamarin.iOS/Facades/System.Memory.dll
 /Users/eduardoreis/.nuget/packages/system.text.encodings.web/4.7.1/lib/netstandard2.1/System.Text.Encodings.Web.dll

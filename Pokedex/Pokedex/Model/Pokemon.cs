@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 
 namespace Pokedex.Model
 {
+    //model BuscaPokemon
     public class Pokemon
     {
         [JsonProperty("id")]

@@ -57,6 +57,8 @@
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.1/coremlc/_PartialAppManifest.items
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.1/coremlc/_BundleResourceWithLogicalName.items
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.1/optimized/pokedex_logo.png
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.1/optimized/pokedex_logo@2x.png
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.1/optimized/pokedex_logo@3x.png
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.1/optimized/
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.csprojAssemblyReference.cache
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/RefitStubs.g.cs

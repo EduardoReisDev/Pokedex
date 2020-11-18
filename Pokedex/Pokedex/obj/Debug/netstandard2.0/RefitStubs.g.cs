@@ -30,9 +30,10 @@ namespace Pokedex.RefitInternalGenerated
 
 #pragma warning disable CS8632 // The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
 #pragma warning disable CS8669 // The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. Auto-generated code requires an explicit '#nullable' directive in source.
-namespace Pokedex.Interface
+namespace Pokedex.Services
 {
     using global::System;
+    using global::System.Collections.Generic;
     using global::System.Threading.Tasks;
     using global::Pokedex.Model;
     using global::Refit;

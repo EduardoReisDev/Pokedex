@@ -18,11 +18,17 @@
   <ItemGroup>
     <Folder Include="View\" />
     <Folder Include="Model\" />
-    <Folder Include="Interface\" />
+    <Folder Include="Services\" />
+    <Folder Include="CustomRenderer\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.iOS">
       <HintPath>..\..\..\..\..\..\..\Library\Frameworks\Xamarin.iOS.framework\Versions\14.4.1.3\lib\mono\Xamarin.iOS\Xamarin.iOS.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Services\RestClientAPI.cs" />
+    <Compile Remove="Services\PokemonAPI.cs" />
+    <Compile Remove="ViewModel\BuscaPokemonVM.cs" />
   </ItemGroup>
 </Project>

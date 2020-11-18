@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="pokedex_logo.png" highlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="23">
-                                <rect key="frame" x="67" y="390" width="281" height="116"/>
+                                <rect key="frame" x="148" y="426" width="119" height="44"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
                         </subviews>
@@ -37,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="pokedex_logo.png" width="470" height="151"/>
+        <image name="pokedex_logo.png" width="117.5" height="37.5"/>
     </resources>
 </document>

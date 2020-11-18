@@ -64,6 +64,7 @@
     <Compile Include="Properties\BuscarPokemon.xaml.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' ">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="XEntryRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
