@@ -8,6 +8,7 @@ namespace Pokedex.View
 {
     public partial class BuscarPokemon : ContentPage
     {
+        //REFIT
         public BuscarPokemon()
         {
             InitializeComponent();
