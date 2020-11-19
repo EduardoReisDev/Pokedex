@@ -1,5 +1,5 @@
 # Pokedex
-Pokedex desenvolvida em Xamarin.Forms (iOS e Android) consumindo a API RESTfull pokeapi.com
+Pokedex desenvolvida em Xamarin.Forms (iOS e Android) consumindo a API RESTfull pokeapi.com.
 
 ## Plugins e Framework
 #### Plugins
@@ -11,6 +11,10 @@ Pokedex desenvolvida em Xamarin.Forms (iOS e Android) consumindo a API RESTfull 
 
 ## API Utilizada
 - https://pokeapi.co
+
+## Medium
+Leia mais sobre a aplicação.
+- https://eduardoreisdev.medium.com/consumindo-api-restful-com-refit-e-xamarin-forms-c38d1c7eac94
 
 ## GETs
 ### Busca Pokemon por nome
