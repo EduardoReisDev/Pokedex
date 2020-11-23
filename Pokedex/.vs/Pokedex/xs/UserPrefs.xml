@@ -1,36 +1,14 @@
 ﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{040AFCF9-6F0D-4567-BEB0-376F7C7E85E1}|Default" HasHotReloadOverlayBeenDismissed="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pokedex/ViewModel/CategoriaPokemonVM.cs">
-    <Files>
-      <File FileName="Pokedex/View/BuscarPokemon.xaml" Line="1" Column="1" />
-      <File FileName="Pokedex/View/CategoriaPokemon.xaml" Line="58" Column="95" />
-      <File FileName="Pokedex/View/TodosPokemon.xaml" Line="23" Column="65" />
-      <File FileName="Pokedex/Services/CaminhoBaseAPI.cs" Line="6" Column="108" />
-      <File FileName="Pokedex/Services/IPokemonAPI.cs" Line="8" Column="27" />
-      <File FileName="Pokedex/Model/PokeCategoriaModel.cs" Line="10" Column="41" />
-      <File FileName="Pokedex/Model/PokeModel.cs" Line="10" Column="41" />
-      <File FileName="Pokedex/View/TodosPokemon.xaml.cs" Line="42" Column="66" />
-      <File FileName="Pokedex/ViewModel/TodosPokemonVM.cs" Line="19" Column="13" />
-      <File FileName="Pokedex/ViewModel/CategoriaPokemonVM.cs" Line="12" Column="40" />
-      <File FileName="Pokedex/ViewModel/BuscarPokemonVM.cs" Line="10" Column="33" />
-      <File FileName="Pokedex/View/BuscarPokemon.xaml.cs" Line="62" Column="45" />
-      <File FileName="Pokedex/Model/Pokemon.cs" Line="11" Column="1" />
-      <File FileName="Pokedex/CustomRenderer/XEntry.cs" Line="5" Column="2" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Pokedex" expanded="True">
             <Node name="Pokedex" expanded="True">
-              <Node name="CustomRenderer" expanded="True" />
-              <Node name="Model" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="View" expanded="True">
-                <Node name="BuscarPokemon.xaml" expanded="True" />
-                <Node name="CategoriaPokemon.xaml" expanded="True" />
-                <Node name="TodosPokemon.xaml" expanded="True" />
-              </Node>
+              <Node name="Dependencies" expanded="True" />
+              <Node name="View" expanded="True" />
               <Node name="ViewModel" expanded="True">
-                <Node name="CategoriaPokemonVM.cs" selected="True" />
+                <Node name="SearchPokemonVM.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -38,7 +16,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Pokedex.iOS Xamarin.HotReload.DebuggerTimeoutException.Pokedex.iOS.HideInfoBar="True" automaticSigning="False" TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AC3F3ECB-AE08-4073-AC49-F89A18C1171A" />
+  <MonoDevelop.Ide.ItemProperties.Pokedex.iOS Xamarin.HotReload.DebuggerTimeoutException.Pokedex.iOS.HideInfoBar="True" automaticSigning="False" TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3AA4EBB1-4A3B-45F5-8376-2CFAB4E70348" />
   <MonoDevelop.Ide.ItemProperties.Pokedex.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" Xamarin.HotReload.UnhandledDeviceException.Pokedex.Android.HideInfoBar="True" TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -13,7 +13,7 @@ namespace Pokedex.Services
         //interface com o caminho da url que será feito o get na api
         //metodod para fazer o get na api passando em patrameto o nome do pokemon que o usuário vai digitar
         [Get("/pokemon/{name}")]
-        Task<Pokemon> GetPokemonAsync(string name);
+        Task<PokemonSearchModel> GetPokemonAsync(string name);
         Task GetPokemonAsync(Entry entry_pokemon);
     }
 }

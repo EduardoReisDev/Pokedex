@@ -12,8 +12,7 @@
           "NETStandard.Library": "2.0.3",
           "Refit": "5.2.1",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451",
-          "Xamarin.iOS": "0.0.0.0"
+          "Xamarin.Forms": "4.8.0.1451"
         },
         "runtime": {
           "Pokedex.dll": {}
@@ -158,14 +157,6 @@
             "fileVersion": "4.8.0.372"
           }
         }
-      },
-      "Xamarin.iOS/0.0.0.0": {
-        "runtime": {
-          "Xamarin.iOS.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
       }
     }
   },
@@ -272,11 +263,6 @@
       "sha512": "sha512-3RUzBpcaBxOjufLLqJnuZRGLhzAbVyfe/Pyp0AFY/H1MkCHYxXIRzgB8h6yC9NTs39NLK2SgGiaMbvC4TJ/zFA==",
       "path": "xamarin.forms/4.8.0.1451",
       "hashPath": "xamarin.forms.4.8.0.1451.nupkg.sha512"
-    },
-    "Xamarin.iOS/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

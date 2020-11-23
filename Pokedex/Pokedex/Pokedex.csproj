@@ -20,6 +20,7 @@
     <Folder Include="Model\" />
     <Folder Include="Services\" />
     <Folder Include="CustomRenderer\" />
+    <Folder Include="ViewModel\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.iOS">
@@ -30,5 +31,9 @@
     <Compile Remove="Services\RestClientAPI.cs" />
     <Compile Remove="Services\PokemonAPI.cs" />
     <Compile Remove="ViewModel\BuscaPokemonVM.cs" />
+    <Compile Remove="ViewModel\BuscarPokemonVM.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="View\CategoriaPokemon.xaml" />
   </ItemGroup>
 </Project>

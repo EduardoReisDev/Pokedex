@@ -58,11 +58,11 @@ namespace Pokedex.Services
         }
 
         /// <inheritdoc />
-        Task<Pokemon> IPokemonAPI.GetPokemonAsync(string name)
+        Task<PokemonSearchModel> IPokemonAPI.GetPokemonAsync(string name)
         {
             var arguments = new object[] { name };
             var func = requestBuilder.BuildRestResultFuncForMethod("GetPokemonAsync", new Type[] { typeof(string) });
-            return (Task<Pokemon>)func(Client, arguments);
+            return (Task<PokemonSearchModel>)func(Client, arguments);
         }
 
         /// <inheritdoc />
