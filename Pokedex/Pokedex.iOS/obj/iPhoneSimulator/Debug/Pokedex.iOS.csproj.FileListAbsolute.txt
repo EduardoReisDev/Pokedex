@@ -60,7 +60,6 @@
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.2/optimized/pokedex_logo@2x.png
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.2/optimized/pokedex_logo@3x.png
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.2/optimized/
-/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.csprojAssemblyReference.cache
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/RefitStubs.g.cs
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.csproj.CoreCompileInputs.cache
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.csproj.CopyComplete

@@ -41,6 +41,15 @@
                      </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Grid>
+                <Button Text="Carregar mais pokemons"
+                    TextColor="CadetBlue"
+                    BackgroundColor="#FFFFFF"
+                    Command="{Binding LoadingMore}"
+                    CornerRadius="10"/>
+                <ActivityIndicator IsRunning="{Binding IsRunLoading}"
+                    Color="Red"/>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
