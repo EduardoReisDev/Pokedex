@@ -18,7 +18,7 @@
                             Title="Selecione a categoria"
                             TextColor="#000000"
                             TitleColor='Gray'
-                            SelectedIndexChanged="SelectedCategory">
+                            SelectedIndexChanged="category_pokemon_SelectedIndexChanged">
                          <Picker.Items>
                             <x:String>bug</x:String>
                             <x:String>dark</x:String>
@@ -43,7 +43,7 @@
                 </Frame>
             </StackLayout>
             <ScrollView>
-                <ListView x:Name="list_pokemons"
+                <ListView ItemsSource="{Binding ListPokemon}"
                           HasUnevenRows="True">
                     <ListView.ItemTemplate>
                         <DataTemplate>

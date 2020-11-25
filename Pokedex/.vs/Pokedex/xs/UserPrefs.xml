@@ -1,14 +1,34 @@
 ﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{040AFCF9-6F0D-4567-BEB0-376F7C7E85E1}|Default" HasHotReloadOverlayBeenDismissed="True">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pokedex/ViewModel/AllPokemonVM.cs">
+    <Files>
+      <File FileName="Pokedex/View/SearchPokemon.xaml.cs" Line="15" Column="10" />
+      <File FileName="Pokedex/ViewModel/SearchPokemonVM.cs" />
+      <File FileName="Pokedex/View/SearchPokemon.xaml" />
+      <File FileName="Pokedex/View/CategoryPokemon.xaml" />
+      <File FileName="Pokedex/View/CategoryPokemon.xaml.cs" />
+      <File FileName="Pokedex/ViewModel/CategoryPokemonVM.cs" />
+      <File FileName="Pokedex/View/AllPokemon.xaml" />
+      <File FileName="Pokedex/View/AllPokemon.xaml.cs" />
+      <File FileName="Pokedex/ViewModel/AllPokemonVM.cs" Line="50" Column="52" />
+      <File FileName="Pokedex/Model/SearchPokemonModel.cs" />
+      <File FileName="Pokedex/ViewModel/HelperViewModel.cs" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Pokedex" expanded="True">
             <Node name="Pokedex" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="View" expanded="True" />
+              <Node name="CustomRenderer" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="View" expanded="True">
+                <Node name="AllPokemon.xaml" expanded="True" />
+                <Node name="CategoryPokemon.xaml" expanded="True" />
+                <Node name="SearchPokemon.xaml" expanded="True" />
+              </Node>
               <Node name="ViewModel" expanded="True">
-                <Node name="SearchPokemonVM.cs" selected="True" />
+                <Node name="AllPokemonVM.cs" selected="True" />
               </Node>
             </Node>
           </Node>
