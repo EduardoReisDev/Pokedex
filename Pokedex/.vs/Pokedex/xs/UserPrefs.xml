@@ -1,23 +1,20 @@
 ﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{040AFCF9-6F0D-4567-BEB0-376F7C7E85E1}|Default" HasHotReloadOverlayBeenDismissed="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pokedex/View/SearchPokemon.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pokedex.iOS/Main.cs">
     <Files>
-      <File FileName="Pokedex/View/AllPokemon.xaml" Line="16" Column="43" />
-      <File FileName="Pokedex/View/AllPokemon.xaml.cs" />
-      <File FileName="Pokedex/ViewModel/AllPokemonVM.cs" />
-      <File FileName="Pokedex/View/SearchPokemon.xaml" Line="92" Column="66" />
-      <File FileName="Pokedex.iOS/AppDelegate.cs" />
-      <File FileName="Pokedex.Android/MainActivity.cs" />
-      <File FileName="Pokedex/ViewModel/SearchPokemonVM.cs" />
-      <File FileName="Pokedex.iOS/Main.cs" />
+      <File FileName="Pokedex/View/AllPokemon.xaml" Line="17" Column="55" />
+      <File FileName="Pokedex/View/AllPokemon.xaml.cs" Line="27" Column="10" />
+      <File FileName="Pokedex/ViewModel/AllPokemonVM.cs" Line="54" Column="10" />
+      <File FileName="Pokedex/View/CategoryPokemon.xaml" Line="41" Column="41" />
+      <File FileName="Pokedex/ViewModel/CategoryPokemonVM.cs" Line="49" Column="1" />
+      <File FileName="Pokedex/View/CategoryPokemon.xaml.cs" Line="27" Column="45" />
+      <File FileName="Pokedex.iOS/Main.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Pokedex" expanded="True">
             <Node name="Pokedex" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" selected="True" />
-              </Node>
+              <Node name="Dependencies" expanded="True" />
               <Node name="CustomRenderer" expanded="True" />
               <Node name="Model" expanded="True" />
               <Node name="Services" expanded="True" />
@@ -29,7 +26,9 @@
               <Node name="ViewModel" expanded="True" />
             </Node>
             <Node name="Pokedex.Android" expanded="True" />
-            <Node name="Pokedex.iOS" expanded="True" />
+            <Node name="Pokedex.iOS" expanded="True">
+              <Node name="Main.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

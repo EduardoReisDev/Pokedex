@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Pokedex.Model;
+using Xamarin.Forms;
 
 namespace Pokedex.ViewModel
 {
@@ -44,6 +45,12 @@ namespace Pokedex.ViewModel
         {
             ListPokemon.Clear();
             GetAllPokemons();
+        }
+
+        public async void ItemSelected(string pokemonName)
+        {
+            MessagingCenter.Send<string>(pokemonName, "AtualizarPokemon");
+            await App.Current.MainPage.Navigation.PopAsync();
         }
 
         //requisição para buscar todos os pokemons 
