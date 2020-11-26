@@ -13,7 +13,8 @@
                        TextColor="#000000"/>
             </StackLayout>
             <ListView ItemsSource="{Binding ListPokemon}"
-                      HasUnevenRows="True">
+                      HasUnevenRows="True"
+                      ItemTapped="ListView_ItemTapped">
                 <ListView.ItemTemplate>
                      <DataTemplate>
                           <ViewCell>
@@ -41,14 +42,14 @@
                      </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <ActivityIndicator IsRunning="{Binding IsRunLoading}"
+                     Color="Red"/>
             <Grid>
                 <Button Text="Carregar mais pokemons"
                     TextColor="CadetBlue"
                     BackgroundColor="#FFFFFF"
                     Command="{Binding LoadingMore}"
                     CornerRadius="10"/>
-                <ActivityIndicator IsRunning="{Binding IsRunLoading}"
-                    Color="Red"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

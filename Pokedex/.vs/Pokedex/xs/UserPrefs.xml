@@ -1,27 +1,35 @@
-﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{B318FE1E-53B8-46DA-828A-9A7C1B652A59}|Default" HasHotReloadOverlayBeenDismissed="True">
+﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{040AFCF9-6F0D-4567-BEB0-376F7C7E85E1}|Default" HasHotReloadOverlayBeenDismissed="True">
   <MonoDevelop.Ide.Workbench ActiveDocument="Pokedex/View/SearchPokemon.xaml">
     <Files>
-      <File FileName="Pokedex/View/AllPokemon.xaml" Line="47" Column="46" />
-      <File FileName="Pokedex/View/AllPokemon.xaml.cs" Line="18" Column="35" />
-      <File FileName="Pokedex/ViewModel/AllPokemonVM.cs" Line="92" Column="38" />
-      <File FileName="Pokedex/View/SearchPokemon.xaml" Line="31" Column="49" />
+      <File FileName="Pokedex/View/AllPokemon.xaml" Line="16" Column="43" />
+      <File FileName="Pokedex/View/AllPokemon.xaml.cs" />
+      <File FileName="Pokedex/ViewModel/AllPokemonVM.cs" />
+      <File FileName="Pokedex/View/SearchPokemon.xaml" Line="92" Column="66" />
+      <File FileName="Pokedex.iOS/AppDelegate.cs" />
+      <File FileName="Pokedex.Android/MainActivity.cs" />
+      <File FileName="Pokedex/ViewModel/SearchPokemonVM.cs" />
+      <File FileName="Pokedex.iOS/Main.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Pokedex" expanded="True">
             <Node name="Pokedex" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" selected="True" />
+              </Node>
               <Node name="CustomRenderer" expanded="True" />
               <Node name="Model" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="View" expanded="True">
                 <Node name="AllPokemon.xaml" expanded="True" />
                 <Node name="CategoryPokemon.xaml" expanded="True" />
-                <Node name="SearchPokemon.xaml" expanded="True" selected="True" />
+                <Node name="SearchPokemon.xaml" expanded="True" />
               </Node>
               <Node name="ViewModel" expanded="True" />
             </Node>
+            <Node name="Pokedex.Android" expanded="True" />
+            <Node name="Pokedex.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

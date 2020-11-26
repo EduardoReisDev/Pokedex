@@ -175,7 +175,12 @@
 	--reference=/Users/eduardoreis/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll \
 	--reference=/Users/eduardoreis/.nuget/packages/system.text.encodings.web/4.7.1/lib/netstandard2.1/System.Text.Encodings.Web.dll \
 	--reference=/Users/eduardoreis/.nuget/packages/system.text.json/4.7.2/lib/netstandard2.0/System.Text.Json.dll \
+	--reference=/Users/eduardoreis/.nuget/packages/webp.touch/1.0.8/lib/Xamarin.iOS10/WebP.Touch.dll \
 	--reference=/Users/eduardoreis/.nuget/packages/xamarin.essentials/1.5.3.2/lib/xamarinios10/Xamarin.Essentials.dll \
+	--reference=/Users/eduardoreis/.nuget/packages/xamarin.ffimageloading/2.4.11.982/lib/Xamarin.iOS10/FFImageLoading.Platform.dll \
+	--reference=/Users/eduardoreis/.nuget/packages/xamarin.ffimageloading/2.4.11.982/lib/Xamarin.iOS10/FFImageLoading.dll \
+	--reference=/Users/eduardoreis/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll \
+	--reference=/Users/eduardoreis/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/lib/Xamarin.iOS10/FFImageLoading.Forms.dll \
 	--reference=/Users/eduardoreis/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	--reference=/Users/eduardoreis/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	--reference=/Users/eduardoreis/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \

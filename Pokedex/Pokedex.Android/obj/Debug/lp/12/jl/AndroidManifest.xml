@@ -15,10 +15,8 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.support.compat" >
+    package="android.support.asynclayoutinflater" >
 
     <uses-sdk android:minSdkVersion="14" />
-
-    <application android:appComponentFactory="android.support.v4.app.CoreComponentFactory" />
 
 </manifest>

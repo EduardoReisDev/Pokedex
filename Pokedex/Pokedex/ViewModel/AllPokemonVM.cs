@@ -47,6 +47,12 @@ namespace Pokedex.ViewModel
             ListPokemon = await GetAllPokemons();
         }
 
+        public async void ItemSelected(string pokemonName)
+        {
+            MessagingCenter.Send<string>(pokemonName, "AtualizarPokemon");
+            await App.Current.MainPage.Navigation.PopAsync();
+        }
+
         public async void LoadingMorePokemon()
         {
             IsRunLoading = true;

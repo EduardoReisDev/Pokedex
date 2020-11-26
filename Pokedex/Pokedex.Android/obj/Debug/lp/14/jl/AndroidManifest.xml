@@ -15,8 +15,10 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.support.coreui" >
+    package="android.support.compat" >
 
     <uses-sdk android:minSdkVersion="14" />
+
+    <application android:appComponentFactory="android.support.v4.app.CoreComponentFactory" />
 
 </manifest>

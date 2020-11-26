@@ -18,5 +18,12 @@ namespace Pokedex.View
             InitializeComponent();
             BindingContext = allPokemonVM = new AllPokemonVM();
         }
+
+        private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var contato = e.Item as Results;
+
+            allPokemonVM.ItemSelected(contato.name);
+        }
     }
 }

@@ -2,6 +2,7 @@
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/bin/Debug/netstandard2.0/Pokedex.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/bin/Debug/netstandard2.0/ref/Pokedex.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/bin/Debug/netstandard2.0/Pokedex.pdb
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/obj/Debug/netstandard2.0/Pokedex.csprojAssemblyReference.cache
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/obj/Debug/netstandard2.0/View/AllPokemon.xaml.g.cs
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/obj/Debug/netstandard2.0/View/CategoryPokemon.xaml.g.cs

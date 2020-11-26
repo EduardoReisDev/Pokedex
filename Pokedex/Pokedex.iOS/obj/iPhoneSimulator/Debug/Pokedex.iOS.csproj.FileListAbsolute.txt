@@ -6,8 +6,17 @@
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/System.Text.Encodings.Web.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/System.Text.Json.dll
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/WebP.Touch.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.dll
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.pdb
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.dll
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.pdb
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Platform.dll
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Platform.pdb
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.dll
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.pdb
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
@@ -60,6 +69,7 @@
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.2/optimized/pokedex_logo@2x.png
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.2/optimized/pokedex_logo@3x.png
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.2/optimized/
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.csprojAssemblyReference.cache
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/RefitStubs.g.cs
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.csproj.CoreCompileInputs.cache
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/obj/iPhoneSimulator/Debug/Pokedex.iOS.csproj.CopyComplete

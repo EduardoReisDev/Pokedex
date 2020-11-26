@@ -5,6 +5,7 @@
         x:Class="Pokedex.View.SearchPokemon"
         xmlns:CustomRenderer="clr-namespace:Pokedex.CustomRenderer"
         xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true"
+        xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" Padding="0,20,0,0"
         BackgroundColor="#C32D2F"
         NavigationPage.HasNavigationBar="False">
 
@@ -58,8 +59,12 @@
                                    TextColor="#FFFFFF"/>
                             <Image HeightRequest="20"
                                    Grid.ColumnSpan="2"
-                                   Grid.Row="1"
-                                   Source="{Binding Image}">
+                                   Grid.Row="1">
+                                   <Image.Source>
+                                       <UriImageSource Uri="{Binding Image}"
+                                            CacheValidity="14" 
+			                                CachingEnabled="true"/>
+                                   </Image.Source>
                             </Image>
                             <Label Grid.ColumnSpan="2"
                                    Grid.Row="2"

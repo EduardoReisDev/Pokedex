@@ -19,7 +19,12 @@ namespace Pokedex.ViewModel
 
             GoCategoryPokemon = new Command(OpenCategoryPokemon);
             GoAllPokemon = new Command(OpenAllPokemon);
-            SearchPokemon = new Command(FilterPokemonByName);
+            SearchPokemon = new Command(FilterPokemonAction);
+
+            MessagingCenter.Subscribe<string>(this, "AtualizarPokemon", (sender) =>
+            {
+                FilterPokemonByName(sender);
+            });
         }
 
         private string _idPokemon;
@@ -88,12 +93,24 @@ namespace Pokedex.ViewModel
             await App.Current.MainPage.Navigation.PushAsync(new AllPokemon());
         }
 
-        private async void FilterPokemonByName()
+        private async void FilterPokemonAction()
+        {
+            FilterPokemonByName();
+        }
+
+        private async void FilterPokemonByName(string nomePokemon = null)
         {
             //string pokemon recebe oque o usuário digita
             //eu uso o ToLower para deixar todas as letras minúsculas.
-            //caso o pokemon seja digitado com a letra maiúscula, a busca não é feita com sucesso. 
+            //caso o pokemon seja digitado com a letra maiúscula, a busca não é feita com sucesso.
+
+            if (string.IsNullOrEmpty(FilterPokemon))
+                FilterPokemon = "";
+
             String pokemon = FilterPokemon.Trim().ToLower();
+
+            if (!string.IsNullOrEmpty(nomePokemon))
+                pokemon = nomePokemon;
 
             try
             {
