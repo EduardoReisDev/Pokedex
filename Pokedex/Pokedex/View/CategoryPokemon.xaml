@@ -62,7 +62,8 @@
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
                                         <Image Source="{Binding imagem}"
-                                               HeightRequest="60" WidthRequest="60"/>
+                                               HeightRequest="60"
+                                               WidthRequest="60"/>
                                         <Label Grid.Column="2"
                                                Text="{Binding name}"
                                                VerticalTextAlignment="Center"

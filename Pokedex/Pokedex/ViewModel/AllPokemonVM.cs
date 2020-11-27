@@ -14,6 +14,8 @@ namespace Pokedex.ViewModel
     {
         //public event PropertyChangedEventHandler PropertyChanged;
 
+        //Com a utilização do MVVM, todas as List foram substituidas por ObservableCollection
+        //A ObservableCollection fornece notificações quando os itens são adicionados, removidos, ou quando toda a coleção é atualizada.
         public ObservableCollection<Results> ListPokemon { get; set; }
 
         private bool _isRunLoading;
@@ -46,8 +48,6 @@ namespace Pokedex.ViewModel
             MessagingCenter.Send<string>(pokemonName, "Pokemon");
             await App.Current.MainPage.Navigation.PopAsync();
         }
-
-
 
         public async void LoadingMorePokemon()
         {
@@ -91,11 +91,14 @@ namespace Pokedex.ViewModel
             {
                 try
                 {
+                    //requisição para buscar todos os pokemons
+                    //passando a url da API junto com a quantidade de pokemons
                     var content = httpClient.GetStringAsync(url).Result;
 
+                    //deserializa o JSON que a API retorna para um objeto
                     var returnConsult = JsonConvert.DeserializeObject<AllPokemonModel>(content);
 
-                    //results é a lista retornada da model(PokeTodos)
+                    //results é a lista retornada da model(AllPokemonModel)
                     return new ObservableCollection<Results>(returnConsult.results);
                 }
 

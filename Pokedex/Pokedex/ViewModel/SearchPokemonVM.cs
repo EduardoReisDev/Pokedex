@@ -102,15 +102,17 @@ namespace Pokedex.ViewModel
 
         private async void FilterPokemonByName(string nomePokemon = null)
         {
-            //string pokemon recebe oque o usuário digita
-            //eu uso o ToLower para deixar todas as letras minúsculas.
-            //caso o pokemon seja digitado com a letra maiúscula, a busca não é feita com sucesso.
-
+            //entry vazio passa um valor vazio para buscar na api
             if (string.IsNullOrEmpty(FilterPokemon))
                 FilterPokemon = "";
 
+            //string pokemon recebe oque o usuário digita
+            //eu uso o ToLower para deixar todas as letras minúsculas.
+            //caso o pokemon seja digitado com a letra maiúscula, a busca não é feita com sucesso.
             String pokemon = FilterPokemon.Trim().ToLower();
 
+            //verifica se o valor nomePokemon que veio por parametro está nulo ou não.
+            //Se não tiver, a variavel pokemon recebe o valor
             if (!string.IsNullOrEmpty(nomePokemon))
                 pokemon = nomePokemon;
 

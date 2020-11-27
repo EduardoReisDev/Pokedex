@@ -1,44 +1,40 @@
 ﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{B318FE1E-53B8-46DA-828A-9A7C1B652A59}|Default" HasHotReloadOverlayBeenDismissed="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pokedex/View/AllPokemon.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pokedex/ViewModel/AllPokemonVM.cs">
     <Files>
-      <File FileName="Pokedex/View/AllPokemon.xaml" Line="18" Column="37" />
-      <File FileName="Pokedex/View/AllPokemon.xaml.cs" Line="28" Column="45" />
-      <File FileName="Pokedex/ViewModel/AllPokemonVM.cs" Line="101" Column="1" />
-      <File FileName="Pokedex/View/CategoryPokemon.xaml" Line="55" Column="43" />
-      <File FileName="Pokedex/View/SearchPokemon.xaml" Line="18" Column="41" />
-      <File FileName="Pokedex/ViewModel/CategoryPokemonVM.cs" Line="71" Column="1" />
-      <File FileName="Pokedex/ViewModel/HelperViewModel.cs" Line="1" Column="1" />
-      <File FileName="Pokedex/ViewModel/SearchPokemonVM.cs" Line="122" Column="76" />
+      <File FileName="Pokedex/Model/CategoryPokemonModel.cs" Line="17" Column="20" />
+      <File FileName="Pokedex/Model/AllPokemonModel.cs" Line="18" Column="29" />
+      <File FileName="Pokedex/Services/BasePathAPI.cs" Line="1" Column="1" />
+      <File FileName="Pokedex/Services/IPokemonAPI.cs" Line="1" Column="1" />
+      <File FileName="Pokedex/View/AllPokemon.xaml" Line="40" Column="40" />
+      <File FileName="Pokedex/View/AllPokemon.xaml.cs" Line="31" Column="107" />
+      <File FileName="Pokedex/View/CategoryPokemon.xaml" Line="61" Column="75" />
+      <File FileName="Pokedex/View/CategoryPokemon.xaml.cs" Line="26" Column="69" />
       <File FileName="Pokedex/View/SearchPokemon.xaml.cs" Line="1" Column="1" />
-      <File FileName="Pokedex/View/CategoryPokemon.xaml.cs" Line="1" Column="1" />
+      <File FileName="Pokedex/View/SearchPokemon.xaml" Line="1" Column="1" />
+      <File FileName="Pokedex/ViewModel/HelperViewModel.cs" Line="10" Column="7" />
+      <File FileName="Pokedex/ViewModel/CategoryPokemonVM.cs" Line="1" Column="1" />
+      <File FileName="Pokedex/ViewModel/SearchPokemonVM.cs" Line="1" Column="1" />
+      <File FileName="Pokedex/ViewModel/AllPokemonVM.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Pokedex" expanded="True">
             <Node name="Pokedex" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="CustomRenderer" expanded="True" />
               <Node name="Model" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="View" expanded="True">
-                <Node name="AllPokemon.xaml" expanded="True">
-                  <Node name="AllPokemon.xaml.cs" selected="True" />
-                </Node>
-                <Node name="CategoryPokemon.xaml" expanded="True" />
-                <Node name="SearchPokemon.xaml" expanded="True" />
+              <Node name="View" expanded="True" />
+              <Node name="ViewModel" expanded="True">
+                <Node name="AllPokemonVM.cs" selected="True" />
               </Node>
-              <Node name="ViewModel" expanded="True" />
             </Node>
-            <Node name="Pokedex.Android" expanded="True" />
-            <Node name="Pokedex.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Pokedex.iOS Xamarin.HotReload.DebuggerTimeoutException.Pokedex.iOS.HideInfoBar="True" automaticSigning="False" TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3AA4EBB1-4A3B-45F5-8376-2CFAB4E70348" />
-  <MonoDevelop.Ide.ItemProperties.Pokedex.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" Xamarin.HotReload.UnhandledDeviceException.Pokedex.Android.HideInfoBar="True" TriggeredFromHotReload="False" PreferredExecutionTarget="Android.J7AXB6007072L96" />
+  <MonoDevelop.Ide.ItemProperties.Pokedex.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" Xamarin.HotReload.UnhandledDeviceException.Pokedex.Android.HideInfoBar="True" TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

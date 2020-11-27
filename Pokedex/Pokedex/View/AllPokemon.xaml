@@ -43,12 +43,13 @@
                 </ListView.ItemTemplate>
             </ListView>
             <ActivityIndicator IsRunning="{Binding IsRunLoading}"
-                               Color="Red"/>
+                Color="Red"
+                BackgroundColor="Transparent"/>
             <Button Text="Carregar mais pokemons"
-                    TextColor="#C32D2F"
-                    BackgroundColor="#FFFFFF"
-                    Command="{Binding LoadingMore}"
-                    CornerRadius="10"/>
+                TextColor="#C32D2F"
+                BackgroundColor="#FFFFFF"
+                Command="{Binding LoadingMore}"
+                CornerRadius="10"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

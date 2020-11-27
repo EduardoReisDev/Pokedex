@@ -509,3 +509,7 @@
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.Android/obj/Debug/stamp/_BuildLibraryImportsCache 2.stamp
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.Android/obj/Debug/stamp/_CleanIntermediateIfNeeded 2.stamp
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.Android/obj/Debug/stamp/_CompileToDalvik 2.stamp
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.Android/obj/Debug/stamp/_GenerateJavaStubs 2.stamp

@@ -14,3 +14,4 @@
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/obj/Debug/netstandard2.0/Pokedex.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/obj/Debug/netstandard2.0/ref/Pokedex.dll
 /Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/obj/Debug/netstandard2.0/Pokedex.pdb
+/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex/obj/Debug/netstandard2.0/Pokedex.csprojAssemblyReference.cache

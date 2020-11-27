@@ -15,6 +15,8 @@ namespace Pokedex.ViewModel
     {
         string url;
 
+        //Com a utilização do MVVM, todas as List foram substituidas por ObservableCollection
+        //A ObservableCollection fornece notificações quando os itens são adicionados, removidos, ou quando toda a coleção é atualizada.
         private ObservableCollection<Results> _listPokemon;
         public ObservableCollection<Results> ListPokemon
         {
@@ -39,14 +41,19 @@ namespace Pokedex.ViewModel
             FeedList();
         }
 
+        //metodo que alimenta a lista
         public void FeedList()
         {
+            //limpo os pokemons que já estavam na lista
             ListPokemon.Clear();
+            //metodo
             GetAllPokemons();
         }
 
+        //método responsável por encaminhar o nome do pokemon para a SearchPokemon.
         public async void ItemSelected(string pokemonName)
         {
+            //passando (enviando) a mensagem do tipo string que é o nome do pokemon, e a mensagem para a outra tela receber.
             MessagingCenter.Send<string>(pokemonName, "Pokemon");
             await App.Current.MainPage.Navigation.PopAsync();
         }
