@@ -12,7 +12,7 @@ namespace Pokedex.ViewModel
 {
     public class AllPokemonVM : HelperViewModel
     {
-        public event PropertyChangedEventHandler PropertyChanged;
+        //public event PropertyChangedEventHandler PropertyChanged;
 
         public ObservableCollection<Results> ListPokemon { get; set; }
 
@@ -23,65 +23,69 @@ namespace Pokedex.ViewModel
             set { SetProperty(ref _isRunLoading, value); }
         }
 
-        private bool _showLoadingMore;
-        public bool ShowLoadingMore
-        {
-            get { return _showLoadingMore; }
-            set { SetProperty(ref _showLoadingMore, value); }
-        }
-
         public Command LoadingMore { get; }
 
         public AllPokemonVM()
         {
             IsRunLoading = false;
-            ShowLoadingMore = false;
             ListPokemon = new ObservableCollection<Results>();
             LoadingMore = new Command(LoadingMorePokemon);
             //diferente da categoria, eu já chama o método aqui pra quando o usuário abrir a página, a consulta já ser feita
             FeedList();
         }
 
-        public async void FeedList()
+        public void FeedList()
         {
-            ListPokemon = await GetAllPokemons();
+            ListPokemon = GetAllPokemons();
         }
 
+        //método responsável por encaminhar o nome do pokemon para a SearchPokemon.
         public async void ItemSelected(string pokemonName)
         {
-            MessagingCenter.Send<string>(pokemonName, "AtualizarPokemon");
+            //passando (enviando) a mensagem do tipo string que é o nome do pokemon, e a mensagem para a outra tela receber.
+            MessagingCenter.Send<string>(pokemonName, "Pokemon");
             await App.Current.MainPage.Navigation.PopAsync();
         }
 
+
+
         public async void LoadingMorePokemon()
         {
+            //activity rodando
             IsRunLoading = true;
-            ShowLoadingMore = false;
 
+            //quantidade que já tem mais 20
             int amountMorePokemon = ListPokemon.Count + 20;
 
+            //lista de pokemon completa
             var listPokemonsFull = new ObservableCollection<Results>();
 
-            await Task.Run(async () =>
+            //executando em segundo plano
+            await Task.Run(() =>
             {
-                listPokemonsFull = await GetAllPokemons(amountMorePokemon);
+                //buscando todos os pokemons setando a quantidade.
+                listPokemonsFull = GetAllPokemons(amountMorePokemon);
+                //limpo a lista, como vai buscar os mesmos +20, se não fica duplicado
                 ListPokemon.Clear();
 
-                foreach(var pokemon in listPokemonsFull)
+                //foreach passando a lista do getallpokemons
+                //le todos os itens
+                foreach (var pokemon in listPokemonsFull)
                 {
+                    //adiciona o pokemon na lista
                     ListPokemon.Add(pokemon);
                 }
             });
 
-            ShowLoadingMore = true;
+            //activity some
             IsRunLoading = false;
         }
 
         //requisição para buscar todos os pokemons
-        public async Task<ObservableCollection<Results>> GetAllPokemons(int amountMorePokemon = 20)
+        public ObservableCollection<Results> GetAllPokemons(int amountMorePokemon = 20)
         {
             //url com todos os pokemons
-            var url = "https://pokeapi.co/api/v2/pokemon/?offset=20&limit="+amountMorePokemon;
+            var url = "https://pokeapi.co/api/v2/pokemon/?offset=0&limit=" + amountMorePokemon;
 
             using (var httpClient = new HttpClient())
             {
@@ -98,9 +102,7 @@ namespace Pokedex.ViewModel
                 catch (Exception exc)
                 {
                     IsRunLoading = false;
-                    ShowLoadingMore = true;
                     Console.WriteLine(exc.Message);
-                    //await DisplayAlert("Erro", "Ocorreu um erro ao buscar os pokemons: " + exc.Message, "OK");
                     return new ObservableCollection<Results>();
                 }
             }

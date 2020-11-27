@@ -10,7 +10,7 @@ namespace Pokedex.ViewModel
 {
     public class SearchPokemonVM : HelperViewModel
     {
-        public event PropertyChangedEventHandler PropertyChanged;
+        //public event PropertyChangedEventHandler PropertyChanged;
 
         public SearchPokemonVM()
         {
@@ -21,7 +21,9 @@ namespace Pokedex.ViewModel
             GoAllPokemon = new Command(OpenAllPokemon);
             SearchPokemon = new Command(FilterPokemonAction);
 
-            MessagingCenter.Subscribe<string>(this, "AtualizarPokemon", (sender) =>
+            //messagingCenter esperando receber a mensagem com o mesmo nome.
+            //quando receber, aciona o método FilterPokemonByName.
+            MessagingCenter.Subscribe<string>(this, "Pokemon", (sender) =>
             {
                 FilterPokemonByName(sender);
             });
@@ -93,7 +95,7 @@ namespace Pokedex.ViewModel
             await App.Current.MainPage.Navigation.PushAsync(new AllPokemon());
         }
 
-        private async void FilterPokemonAction()
+        private void FilterPokemonAction()
         {
             FilterPokemonByName();
         }
@@ -129,10 +131,6 @@ namespace Pokedex.ViewModel
                 HeightPokemon = string.Format($"Altura: {resultHeight} m");
                 WeightPokemon = string.Format($"Peso: {resultWeight} kg");
                 ExperiencePokemon = string.Format($"Experiência Base: {pokemonname.Base_experience}");
-
-                //apresentação da imagem do pokemon pelo ID.
-                //caso queira buscar pelo nome, use a url abaixo
-                //https://img.pokemondb.net/artwork/{pokemonnome.Name}.jpg
                 Image = string.Format($"https://pokeres.bastionbot.org/images/pokemon/{pokemonname.Id}.png");
             }
 

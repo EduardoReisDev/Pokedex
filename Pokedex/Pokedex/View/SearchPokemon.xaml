@@ -5,98 +5,97 @@
         x:Class="Pokedex.View.SearchPokemon"
         xmlns:CustomRenderer="clr-namespace:Pokedex.CustomRenderer"
         xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true"
-        xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" Padding="0,20,0,0"
         BackgroundColor="#C32D2F"
         NavigationPage.HasNavigationBar="False">
 
         <ScrollView>
-            <StackLayout>
-                <StackLayout Margin="20">
-                    <Image Source="pokedex_logo.png"
-                           WidthRequest="200"/>
-                    <Frame Padding="2"
-                           CornerRadius="10"
-                           HasShadow="False"
-                           BackgroundColor="#931F21">
-                        <CustomRenderer:XEntry Placeholder="Digite o nome do pokemon"
-                                               PlaceholderColor="Gray"
-                                               BackgroundColor="#931F21"
-                                               Text="{Binding FilterPokemon}"
-                                               TextColor="#FFFFFF"/>
-                    </Frame>
-                    <Button Text="Buscar"
-                            TextColor="#FFFFFF"
-                            BackgroundColor="#931F21"
-                            Command="{Binding SearchPokemon}"
-                            CornerRadius="10"/>
-                    <Frame BorderColor="#931F21"
-                           BackgroundColor="#C32D2F"
-                           HasShadow="False"
-                           Margin="10"
-                           CornerRadius="10">
-                        <Grid RowSpacing="10" ColumnSpacing="10">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="40"/>
-                                <RowDefinition Height="200"/>
-                                <RowDefinition Height="40"/>
-                                <RowDefinition Height="40"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
-                            <Label Grid.Column="0"
-                                   Grid.Row="0"
-                                   Text="{Binding IdPokemon}"
-                                   HorizontalTextAlignment="Center"
-                                   VerticalTextAlignment="Center"
-                                   TextColor="#FFFFFF"/>
-                            <Label Grid.Column="1"
-                                   Grid.Row="0"
-                                   Text="{Binding NamePokemon}"  
-                                   HorizontalTextAlignment="Center"
-                                   VerticalTextAlignment="Center"
-                                   TextColor="#FFFFFF"/>
-                            <Image HeightRequest="20"
-                                   Grid.ColumnSpan="2"
-                                   Grid.Row="1">
-                                   <Image.Source>
-                                       <UriImageSource Uri="{Binding Image}"
-                                            CacheValidity="14" 
-			                                CachingEnabled="true"/>
-                                   </Image.Source>
-                            </Image>
-                            <Label Grid.ColumnSpan="2"
-                                   Grid.Row="2"
-                                   Text="{Binding ExperiencePokemon}"
-                                   HorizontalTextAlignment="Center"
-                                   VerticalTextAlignment="Center"
-                                   TextColor="#FFFFFF"/>
-                            <Label Grid.Column="0"
-                                   Grid.Row="3"
-                                   Text="{Binding HeightPokemon}"
-                                   HorizontalTextAlignment="Center"
-                                   VerticalTextAlignment="Center"
-                                   TextColor="#FFFFFF"/>
-                            <Label Grid.Column="1"
-                                   Grid.Row="3"
-                                   Text="{Binding WeightPokemon}"
-                                   HorizontalTextAlignment="Center"
-                                   VerticalTextAlignment="Center"
-                                   TextColor="#FFFFFF"/>
-                        </Grid>
-                    </Frame>
-                    <Button Text="Buscar por categoria"
-                            TextColor="#FFFFFF"
-                            BackgroundColor="#931F21"
-                            Command="{Binding GoCategoryPokemon}"
-                            CornerRadius="10"/>
-                    <Button Text="Ver todos Pokemons"
-                            BackgroundColor="#931F21"
-                            TextColor="#FFFFFF"
-                            Command="{Binding GoAllPokemon}"
-                            CornerRadius="10"/> 
-                </StackLayout>
+            <StackLayout Margin="20,0,20,20">
+                <Image Source="pokedex_logo.png"
+                       WidthRequest="200"
+                       Margin="10"/>
+                <Frame Padding="2"
+                       CornerRadius="10"
+                       HasShadow="False"
+                       BackgroundColor="#931F21">
+                    <CustomRenderer:XEntry
+                        Placeholder="Digite o nome do pokemon"
+                        PlaceholderColor="Gray"
+                        BackgroundColor="#931F21"
+                        Text="{Binding FilterPokemon}"
+                        TextColor="#FFFFFF"/>
+                </Frame>
+                <Button Text="Buscar"
+                    TextColor="#FFFFFF"
+                    BackgroundColor="#931F21"
+                    Command="{Binding SearchPokemon}"
+                    CornerRadius="10"/>
+                <Frame BorderColor="#931F21"
+                    BackgroundColor="#C32D2F"
+                    HasShadow="False"
+                    Margin="10"
+                    CornerRadius="10">
+                    <Grid RowSpacing="10" ColumnSpacing="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0"
+                            Grid.Row="0"
+                            Text="{Binding IdPokemon}"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"
+                            TextColor="#FFFFFF"/>
+                        <Label Grid.Column="1"
+                            Grid.Row="0"
+                            Text="{Binding NamePokemon}"  
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"
+                            TextColor="#FFFFFF"/>
+                        <Image HeightRequest="20"
+                            Grid.ColumnSpan="2"
+                            Grid.Row="1">
+                            <Image.Source>
+                                <UriImageSource Uri="{Binding Image}"
+                                    CacheValidity="14" 
+			                        CachingEnabled="true"/>
+                                </Image.Source>
+                        </Image>
+                        <Label Grid.ColumnSpan="2"
+                            Grid.Row="2"
+                            Text="{Binding ExperiencePokemon}"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"
+                            TextColor="#FFFFFF"/>
+                        <Label Grid.Column="0"
+                            Grid.Row="3"
+                            Text="{Binding HeightPokemon}"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"
+                            TextColor="#FFFFFF"/>
+                        <Label Grid.Column="1"
+                            Grid.Row="3"
+                            Text="{Binding WeightPokemon}"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"
+                            TextColor="#FFFFFF"/>
+                    </Grid>
+                </Frame>
+                <Button Text="Buscar por categoria"
+                    TextColor="#FFFFFF"
+                    BackgroundColor="#931F21"
+                    Command="{Binding GoCategoryPokemon}"
+                    CornerRadius="10"/>
+                <Button Text="Ver todos Pokemons"
+                    BackgroundColor="#931F21"
+                    TextColor="#FFFFFF"
+                    Command="{Binding GoAllPokemon}"
+                    CornerRadius="10"/> 
             </StackLayout>
         </ScrollView>
 </ContentPage>

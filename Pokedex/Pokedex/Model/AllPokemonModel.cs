@@ -15,6 +15,12 @@ namespace Pokedex.Model
     public class Results
     {
         public string name { get; set; }
-        public string imagem { get; set; }
+        public string imagem
+        {
+            get
+            {
+                return "https://img.pokemondb.net/artwork/" + name + ".jpg";
+            }
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8uaanjsqG6T4uBFn4qtJuEUjtmeD/NK6nIhzPB7lcKpIe0Z//U1R3qZTyfrCeudls7p5gYDfTuVory43PhWmhw==",
+  "dgSpecHash": "1gR+tB5z3GzWmewaC1cGb0zc7TzsxoHpq+Xna864TOnmXyfUO6rb+serwYCzwETwv5UudqkBYqI/iTh0IBJ0kQ==",
   "success": true,
   "projectFilePath": "/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.iOS/Pokedex.iOS.csproj",
   "expectedPackageFiles": [
@@ -12,10 +12,7 @@
     "/Users/eduardoreis/.nuget/packages/system.text.encodings.web/4.7.1/system.text.encodings.web.4.7.1.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512",
-    "/Users/eduardoreis/.nuget/packages/webp.touch/1.0.8/webp.touch.1.0.8.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/eduardoreis/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
-    "/Users/eduardoreis/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []

@@ -11,10 +11,8 @@ using Xamarin.Forms;
 
 namespace Pokedex.ViewModel
 {
-    public class CategoryPokemonVM : INotifyPropertyChanged
+    public class CategoryPokemonVM
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-
         string url;
 
         private ObservableCollection<Results> _listPokemon;
@@ -41,7 +39,7 @@ namespace Pokedex.ViewModel
             FeedList();
         }
 
-        public async void FeedList()
+        public void FeedList()
         {
             ListPokemon.Clear();
             GetAllPokemons();
@@ -49,12 +47,12 @@ namespace Pokedex.ViewModel
 
         public async void ItemSelected(string pokemonName)
         {
-            MessagingCenter.Send<string>(pokemonName, "AtualizarPokemon");
+            MessagingCenter.Send<string>(pokemonName, "Pokemon");
             await App.Current.MainPage.Navigation.PopAsync();
         }
 
         //requisição para buscar todos os pokemons 
-        public async void GetAllPokemons()
+        public void GetAllPokemons()
         {
             using (var httpClient = new HttpClient())
             {
@@ -69,18 +67,11 @@ namespace Pokedex.ViewModel
                     {
                         ListPokemon.Add(item);
                     }
-
-                    //return returnConsult.pokemon.Select(x => x.pokemon).ToList();
-                    //TENTATIVA FOTO POKEMON
-                    //var listPokemon = retornoConsulta.pokemon.Select(x => x.pokemon).ToList();
-                    //var listPokemonName = listPokemon.Select(x => x.name).ToList();
-                    //listPokemonFoto = string.Format($"https://img.pokemondb.net/artwork/{listPokemonName.name}.jpg");
                 }
 
                 catch (Exception exc)
                 {
-                    //await DisplayAlert("Erro", "Ocorreu um erro ao buscar os pokemons: " + exc.Message, "OK");
-                    //return new List<Results>();
+                    Console.WriteLine(exc.Message);
                 }
             }
         }

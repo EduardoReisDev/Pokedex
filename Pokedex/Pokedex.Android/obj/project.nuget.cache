@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uZBNcgM8C7VgDYssnbRKYSvFmS/HZQAB6Qy5klRrj6siGYAd8x1NeJySZWSlcJIWSXHEnbSm/xDec1AiUzISJw==",
+  "dgSpecHash": "5d36zZqDVwCS1dRY/cPwjRG9gPxLB2JiU9Y7o4DRNwoJMiBvFyxZu4wKbddFp6awSjYYyNaPDV+zD/F4kSbwCA==",
   "success": true,
   "projectFilePath": "/Users/eduardoreis/Documents/GitHub/Pokedex/Pokedex/Pokedex.Android/Pokedex.Android.csproj",
   "expectedPackageFiles": [
@@ -50,8 +50,6 @@
     "/Users/eduardoreis/.nuget/packages/xamarin.android.support.versionedparcelable/28.0.0.3/xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.android.support.viewpager/28.0.0.3/xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/eduardoreis/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
-    "/Users/eduardoreis/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
